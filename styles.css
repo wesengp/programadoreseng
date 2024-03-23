@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: none;
+}
+
+#intro-container {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco semi-transparente */
+    border-radius: 10px;
+    margin: 20% auto;
+    max-width: 600px;
+}
+
+#start-button {
+    background-color: #4CAF50; /* Cor verde */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-button:hover {
+    background-color: #45a049; /* Cor verde mais escura no hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra no hover */
+}
+
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+}
+
+#question-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#options-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#options-container label {
+    margin-right: 10px;
+}
+
+#next-button {
+    background-color: #008CBA; /* Cor azul */
+    color: white;
+    padding: 15px 20px; /* Aumentado o espaçamento vertical */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Adicionado um espaçamento superior */
+}
+
+#next-button:hover {
+    background-color: #006080; /* Cor azul mais escura no hover */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra no hover */
+}
+
+#result-container {
+    margin-top: 20px;
+}
